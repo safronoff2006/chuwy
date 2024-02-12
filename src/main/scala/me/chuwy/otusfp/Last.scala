@@ -1,17 +1,8 @@
 package me.chuwy.otusfp
 
-import cats.effect.IO
-import scala.concurrent.ExecutionContext.global
-
-import io.circe.{Json, Decoder}
 import io.circe.literal._
-
-import me.chuwy.otusfp.Restful.User
-import org.http4s.{Request, Uri, Method}
 import org.http4s.syntax.all._
-import org.http4s.blaze.client.BlazeClientBuilder
-import org.http4s.client.Client
-
+/*
 object Last {
 
   val httpReq = Request[IO]().withUri(uri"http://localhost:8080/hello/bob")
@@ -46,3 +37,4 @@ object Last {
   val requestWithUser = Restful.httpApp(r).flatMap(resp => resp.as[String]).flatMap(IO.println)
 
 }
+*/

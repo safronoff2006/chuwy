@@ -1,11 +1,7 @@
 package me.chuwy.otusfp
 
 import scala.concurrent.duration._
-
-import cats.effect.{IOApp, IO}
-
-import me.chuwy.otusfp.Restful.User
-
+/*
 object Main extends IOApp.Simple {
   import io.circe.literal._
   import io.circe.syntax._
@@ -23,3 +19,4 @@ object Main extends IOApp.Simple {
     } yield ()
   }
 }
+*/
